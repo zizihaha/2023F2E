@@ -1,0 +1,248 @@
+:root {
+  --mainColor: #4527a0;
+  --secondaryColor1: #26a69a;
+  --secondaryColor2: #ffb300;
+  --secondarycolor3: #ec407a;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+body {
+  border: 8px solid var(--mainColor);
+  background-color: #e3e3e3 !important;
+}
+
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.wrap {
+  margin-top: 100px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 15px 0;
+  border-top: 8px solid var(--mainColor);
+  border-right: 8px solid var(--mainColor);
+  border-left: 8px solid var(--mainColor);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 9px -1px rgba(0, 0, 0, 0.15);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 235px;
+    height: 58px;
+    margin: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .nav {
+    ul {
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 50px;
+      }
+    }
+    button {
+      background: var(--mainColor);
+      color: #fff;
+      border-radius: 40px;
+      padding: 10px 25px;
+      display: flex;
+      align-items: center;
+      border: none;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+}
+
+.sec {
+  padding: 45px 0 60px 0;
+}
+
+.sec2 {
+  text-align: center;
+  img {
+    width: 257px;
+    margin-bottom: 30px;
+  }
+}
+
+.sec3 {
+  background-color: var(--mainColor);
+  text-align: center;
+  img {
+    width: 257px;
+    margin-bottom: 30px;
+  }
+}
+
+.sec4 {
+  background-image: url(./image/sec4bg.png);
+  height: 527px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  .donate {
+    padding: 30px;
+    background: #fff;
+    border-radius: 80px;
+    width: 680px;
+    text-align: center;
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    .sec4Titile {
+      width: 257px;
+    }
+    .donateText {
+      width: 175px;
+    }
+    .donatePrice {
+      font-size: 60px;
+      color: var(--mainColor);
+    }
+  }
+}
+
+.sec5 {
+  .container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .sec5Info {
+    width: 480px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+  }
+  img {
+    width: 400px;
+    margin-bottom: 25px;
+  }
+  .form {
+    margin-top: 30px;
+    input,
+    textarea {
+      display: block;
+      width: 360px;
+      margin-bottom: 20px;
+      padding: 8px 10px;
+      border-radius: 5px;
+      border: 1px solid #b9b9b9;
+      box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.15);
+    }
+    input::placeholde {
+      color: #c1c1c1;
+    }
+    textarea::placeholde {
+      color: #c1c1c1;
+    }
+    input[type="submit"] {
+      width: auto;
+      font-size: 28px;
+      background: var(--mainColor);
+      color: #fff;
+      border-radius: 40px;
+      padding: 10px 25px;
+      border: none;
+      margin: 0 auto;
+      font-weight: bold;
+    }
+  }
+}
+
+// 頁尾
+.footer {
+  background: var(--mainColor);
+  padding: 15px;
+  .container {
+    position: relative;
+  }
+  .cat {
+    width: 530px;
+    position: absolute;
+    top: -180px;
+    left: 7%;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .info {
+      display: flex;
+      color: #fff;
+      span {
+        display: inline-block;
+        color: #ffb300;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+    }
+    .bottomMenuWrap {
+      margin-right: 90px;
+      text-align: center;
+      width: 215px;
+      .bottomMenu {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 0;
+        justify-content: space-between;
+        li {
+          width: 100px;
+        }
+      }
+    }
+    .officeInfoWrap {
+      text-align: center;
+      .officeInfo {
+        text-align: left;
+      }
+    }
+  }
+  .logo2 {
+    width: 235px;
+    height: 58px;
+    img {
+      width: 100%;
+    }
+  }
+  .bottom {
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+  }
+}

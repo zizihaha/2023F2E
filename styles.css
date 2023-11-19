@@ -1,0 +1,244 @@
+:root {
+  --mainColor: #4527a0;
+  --secondaryColor1: #26a69a;
+  --secondaryColor2: #ffb300;
+  --secondarycolor3: #ec407a;
+}
+
+html {
+  scroll-padding-top: 100px;
+}
+
+body {
+  border: 8px solid var(--mainColor);
+  background-color: #e3e3e3 !important;
+}
+
+ul {
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.wrap {
+  margin-top: 100px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 15px 0;
+  border-top: 8px solid var(--mainColor);
+  border-right: 8px solid var(--mainColor);
+  border-left: 8px solid var(--mainColor);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 9px -1px rgba(0, 0, 0, 0.15);
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 235px;
+  height: 58px;
+  margin: 0;
+}
+.header .logo img {
+  width: 100%;
+}
+.header .nav ul {
+  display: flex;
+  align-items: center;
+}
+.header .nav ul li {
+  margin-right: 50px;
+}
+.header .nav button {
+  background: var(--mainColor);
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.header .nav img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.sec {
+  padding: 45px 0 60px 0;
+}
+
+.sec2 {
+  text-align: center;
+}
+.sec2 img {
+  width: 257px;
+  margin-bottom: 30px;
+}
+
+.sec3 {
+  background-color: var(--mainColor);
+  text-align: center;
+}
+.sec3 img {
+  width: 257px;
+  margin-bottom: 30px;
+}
+
+.sec4 {
+  background-image: url(./image/sec4bg.png);
+  height: 527px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+.sec4 .donate {
+  padding: 30px;
+  background: #fff;
+  border-radius: 80px;
+  width: 680px;
+  text-align: center;
+}
+.sec4 .donate h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.sec4 .donate img {
+  margin-bottom: 20px;
+}
+.sec4 .donate .sec4Titile {
+  width: 257px;
+}
+.sec4 .donate .donateText {
+  width: 175px;
+}
+.sec4 .donate .donatePrice {
+  font-size: 60px;
+  color: var(--mainColor);
+}
+
+.sec5 .container {
+  display: flex;
+  justify-content: space-around;
+}
+.sec5 .sec5Info {
+  width: 480px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.sec5 img {
+  width: 400px;
+  margin-bottom: 25px;
+}
+.sec5 .form {
+  margin-top: 30px;
+}
+.sec5 .form input,
+.sec5 .form textarea {
+  display: block;
+  width: 360px;
+  margin-bottom: 20px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #b9b9b9;
+  box-shadow: 0 0 7px -1px rgba(0, 0, 0, 0.15);
+}
+.sec5 .form input::placeholde {
+  color: #c1c1c1;
+}
+.sec5 .form textarea::placeholde {
+  color: #c1c1c1;
+}
+.sec5 .form input[type=submit] {
+  width: auto;
+  font-size: 28px;
+  background: var(--mainColor);
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px 25px;
+  border: none;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.footer {
+  background: var(--mainColor);
+  padding: 15px;
+}
+.footer .container {
+  position: relative;
+}
+.footer .cat {
+  width: 530px;
+  position: absolute;
+  top: -180px;
+  left: 7%;
+}
+.footer .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer .top .info {
+  display: flex;
+  color: #fff;
+}
+.footer .top .info span {
+  display: inline-block;
+  color: #ffb300;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.footer .top .bottomMenuWrap {
+  margin-right: 90px;
+  text-align: center;
+  width: 215px;
+}
+.footer .top .bottomMenuWrap .bottomMenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 0;
+  justify-content: space-between;
+}
+.footer .top .bottomMenuWrap .bottomMenu li {
+  width: 100px;
+}
+.footer .top .officeInfoWrap {
+  text-align: center;
+}
+.footer .top .officeInfoWrap .officeInfo {
+  text-align: left;
+}
+.footer .logo2 {
+  width: 235px;
+  height: 58px;
+}
+.footer .logo2 img {
+  width: 100%;
+}
+.footer .bottom {
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}/*# sourceMappingURL=styles.css.map */
